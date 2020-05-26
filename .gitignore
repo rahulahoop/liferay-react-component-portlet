@@ -3,5 +3,8 @@
 build/
 target/
 node/
+package-lock.json
+.mvn/
+*.cmd
 *.iml
 node_modules/
