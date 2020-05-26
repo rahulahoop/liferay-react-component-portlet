@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
     <artifactId>modules</artifactId>
-    <groupId>de.binaerebauten.liferay.benefitatwork</groupId>
+    <groupId>com.example</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-	<groupId>de.binaerebauten.benefitatwork.reactlet</groupId>
+	<groupId>com.example.portlet</groupId>
 	<artifactId>reactlet</artifactId>
 	<version>1.0.0</version>
 	<properties>
@@ -24,7 +24,7 @@
 			<plugin>
 				<groupId>biz.aQute.bnd</groupId>
 				<artifactId>bnd-maven-plugin</artifactId>
-				<version>${bnd-maven-plugin.version}</version>
+				<version>3.5.0</version>
 				<executions>
 					<execution>
 						<goals>
@@ -36,7 +36,7 @@
 					<dependency>
 						<groupId>biz.aQute.bnd</groupId>
 						<artifactId>biz.aQute.bndlib</artifactId>
-						<version>${bnd-maven-plugin.version}</version>
+						<version>3.5.0</version>
 					</dependency>
 					<dependency>
 						<groupId>com.liferay</groupId>
@@ -66,8 +66,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<source>11</source>
+					<target>11</target>
 				</configuration>
 			</plugin>
 			<plugin>
