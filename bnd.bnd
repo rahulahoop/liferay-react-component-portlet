@@ -1,7 +1,7 @@
 Bundle-Name: reactlet
 Bundle-SymbolicName: de.binaerebauten.benefitatwork.reactlet
 Bundle-Version: 1.0.0
-Web-ContextPath=/reactlet
+Web-ContextPath: /reactlet
 Export-Package: de.binaerebauten.benefitatwork.reactlet.constants
 -contract: JavaPortlet,JavaServlet
 -jsp: *.jsp,*.jspf
@@ -12,4 +12,4 @@ Export-Package: de.binaerebauten.benefitatwork.reactlet.constants
 -plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
 -sass: *
 -noee: true
--includeresource: META-INF/resources=node_modules/, META-INF/resources/=package.json
+-includeresource: META-INF/resources=build/node/packageRunBuild/resources
