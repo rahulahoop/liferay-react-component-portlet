@@ -3,6 +3,7 @@
     "react": "16.12.0"
   },
   "name": "reactlet",
+  "main": "js/index",
   "scripts": {
     "build": "liferay-npm-scripts build",
     "checkFormat": "liferay-npm-scripts check",

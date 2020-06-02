@@ -11,6 +11,6 @@
 
 	<react:component
 		data="<%=data%>"
-		module="js/index.es"
+		module="js/index"
 		/>
 </div>
